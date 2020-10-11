@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+.main1 {
+    cursor: pointer;
+}
+body {
+    width: 100%;
+    background: #fff;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.content1 {
+    width: 100%;
+    position: relative;
+}
+
+.content1 img {
+    width: 100px;
+    padding: 20px 20px 0 20px;
+}
+.content1 p {
+    width: 150px;
+/*    font-family: 'Lobster', cursive;*/
+    
+    font-size: 20px;
+/*    padding: 20px;*/
+/*    margin-bottom: 50px;*/
+    
+    
+}
+.box2 .subbox {
+    display: inline-block;
+   width: 350px;
+    
+    
+}.box2 .subbox span {
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.box2 {
+    position: absolute;
+    width: 80%;
+    right: 100px;
+    top: 260px;
+    
+    
+}.box2 img {
+    width: 300px;
+/*    background: red;*/
+}
+.box1 {
+    text-align: center;
+    width: 150px;
+/*    background: red;*/
+}
+
+.box1 p:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 25px;
+    font-weight:  bold;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.content1 ul li {
+   
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+/*    font-family: 'Nanum Pen Script', cursive;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content1 ul {
+    width: 150px;
+    height: 500px;
+    border-right: 2px solid black;
+  
+}
+ .mainimg {
+    position: absolute;
+right: 30%;
+     top: 30%;
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.content2 {
+    position: absolute;
+    left: 180px;
+    top: 280px;
+}
+li {
+    list-style: none;
+}
